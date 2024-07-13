@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcade Mode</title>
+    <link rel="stylesheet" href="../Styles/arcade.css">
+    <link rel="shortcut icon" href="../Assets/Img/balloon-icon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <div id="menu-container">
+            <div class="element-container">
+                <div class="balloons">
+                    <img src="../Assets/Img/balao.svg" alt="Balões inteiros">
+                    <span id="balloons-number">n</span>
+                </div>
+            </div>
+            <div class="element-container">
+                <div class="popped-balloons">
+                    <img src="../Assets/Img/balaopow.svg" alt="Balões estourados">
+                    <span id="popped-balloons-number">n</span>
+                </div>
+            </div>
+            <div class="element-container">
+                <div class="best-container">
+                    <div>
+                        melhor: 
+                        <span id="best-number"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="element-container" id="time-container">
+                <div class="timer-container">
+                    <img src="../Assets/Img/cronometro.svg" alt="Tempo restante">
+                    <span id="time">0</span>
+                </div>
+            </div>
+            <div class="element-container">
+                <div class="back-container">
+                    <a href="../index.html">
+                        <img src="../Assets/Img/botao_de_voltar.svg" alt="back to home">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+        <div id="game-container">
+
+        </div>
+        <div id="best-score-cont" class="hide">
+            <h2 id="best-h2">0</h2>
+            <h3>Sua melhor pontuação!</h3>
+        </div>
+    </div>
+
+
+
+    <script src="../Scripts/arcade-script.js"></script>
+</body>
+</html>
