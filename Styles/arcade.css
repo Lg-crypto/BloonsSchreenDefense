@@ -65,20 +65,7 @@ body{
     grid-template-columns: repeat(10,80px);
     grid-template-rows: repeat(8,75px);
 }
-#best-score-cont{
-    position: absolute;
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    right: 10px;
-    bottom: 50px;
-    text-align: center;
-}
-#best-score-cont h2, h3{
-    font-weight: 500;
-}
-.hide{
-    display: none;
-}
+
 
 @media (width < 1024) {
     #game-container{
